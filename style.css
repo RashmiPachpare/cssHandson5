@@ -1,0 +1,168 @@
+.page1{
+    background-color:violet;
+}
+#h3{
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+}
+.text1{
+    text-align: center;
+    color: black;
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: 36%;
+
+}
+
+
+.box{
+
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+
+.box1 {
+    background-color: rgb(4, 4, 51);
+    animation: animation-1 2s ease infinite;
+
+}
+
+@keyframes animation-1 {
+    0% {
+        transform: skewX(15deg);
+    }
+
+    50% {
+        transform: skewX(0deg);
+    }
+
+    100% {
+        transform: skewX(-15deg);
+    }
+}
+
+.box2 {
+    background-color: rgb(158, 28, 28);
+    animation: animation-2 2s ease infinite;
+
+
+}
+
+@keyframes animation-2 {
+    0% {
+        transform: skewY(15deg);
+    }
+
+    50% {
+        transform: skewY(0deg);
+    }
+
+    100% {
+        transform: skewY(-15deg);
+    }
+}
+
+.box3 {
+    background-color: darkorchid;
+    animation: animation-3 2s ease infinite;
+
+
+}
+
+@keyframes animation-3 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(270deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+}
+
+.box4 {
+    background-color: rgb(77, 3, 27);
+    border: 1px solid rgb(10, 2, 39);
+    animation: animation-4 2s ease infinite;
+
+
+}
+
+@keyframes animation-4 {
+    0% {
+        transform: scaleY(0.8);
+    }
+
+    50% {
+        transform: scaleY(0.2);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.box5 {
+    background-color: rgb(130, 26, 20);
+    border: 1px solid rgb(70, 21, 7);
+    animation: animation-5 2s ease infinite;
+
+
+}
+
+@keyframes animation-5 {
+    0% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(0.8);
+    }
+
+    100% {
+        transform: scaleX(0.2);
+    }
+}
+
+.box6 {
+    background-color: rgb(11, 103, 32);
+    border: 3px solid rgb(8, 47, 5);
+    animation: animation-6 2s ease infinite;
+
+
+}
+
+@keyframes animation-6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(60deg);
+    }
+
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+
+
